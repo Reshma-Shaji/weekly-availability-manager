@@ -1,12 +1,28 @@
-# React + Vite
+# 🗓️ Weekly Availability Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that allows users to manage their weekly time slot availability for each day of the week. Slots can be added, updated, removed, and saved to `localStorage`.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⏰ Add multiple time slots for each day (Monday to Sunday)
+- 🔁 Validate overlapping or invalid time slots (e.g., end before start)
+- 💾 Save availability to `localStorage`
+- 🧹 Reset all saved data
+- 📅 Integrated calendar view
+- 💅 Styled using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- React Calendar
+- React Icons
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Reshma-Shaji/weekly-availability-manager.git
+cd weekly-availability-manager
